@@ -1,0 +1,15 @@
+import random
+a = random.randint(1,20)
+b = random.randint(1,20)
+c = random.randint(1,20)
+d = random.randint(1,20)
+e = random.randint(1,20)
+num1 = random.randint(a,b)
+num2 = random.randint(c,d)
+num3 = random.randint(e, 20)
+
+print('a = ' , num1 + num2)
+print('b = ' , num1 - num2)
+print('c = ' , num1 * num2)
+print('d = ' , num1 / num2)
+print('e = ' , num1 ** num2)
